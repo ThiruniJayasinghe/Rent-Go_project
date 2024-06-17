@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+  <title>Delete Account</title>
+  
+  <!-- style -->
+
+  <style>
+     body{
+      background-color: #ccc;
+      }
+    
+    .container {
+        width: 350px;
+        margin: 100px auto;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 50px;
+    }
+
+    .container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+  }
+
+  .container input[type="text"]{
+    width: 100%;
+    padding: 13.5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 16px;
+ }
+ .container input[type="password"] {
+    width: 100%;
+    padding: 13.5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .container input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #c93a3a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container input[type="submit"]:hover {
+    opacity:0.8;
+  }
+  
+
+
+
+    
+  </style>
+</head>
+
+<!-- body -->
+
+<body>
+  <div class="container">
+    <h2>Delete Account</h2>
+    <form action="delete.php" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      
+      
+      <input type="submit" value="Delete" onclick="return validateLogin()">
+
+      <a href="clogin.html">Login</a>
+  </div>
+
+  <script>
+    // Function to validate user credentials
+  function validateLogin() {
+    // Get input values
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+  
+    // Check if username and password are empty
+    if (username === "" || password === "") {
+      alert("Please enter both username and password");
+      return false;
+    }
+  
+    return ture;
+    
+  }
+
+  </script>
+
+
+
+
+</body>
+</html>

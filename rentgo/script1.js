@@ -1,0 +1,1 @@
+alert('Please add your personal details');

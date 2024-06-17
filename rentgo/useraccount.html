@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+	
+		<meta charset ="utf-8">
+        <title>User Account</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="userstyle.css">
+		<link rel="stylesheet" href="update.css">
+
+    </head>
+        <body>
+		<script src="script1.js"></script>
+
+            <header class="header">
+              <a href="newHomePage.html" > <img class="logo" src="Images/rentgonew.png" width="160px" alt="logo"> </a> <br/><br/><br/>
+            
+            
+                <nav>
+                   <ul class="navigation">
+                    <li><a href="newHomePage.html">Home</a></li>
+                    <li><a href="Select Vehicle type__.html">Schedule Ride</a></li>
+                    <li><a href="instant ride.html">Instant Ride</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+                    <li><a href="FAQpage.html">FAQ</a></li>
+
+                  
+                    <div class="searchNav">
+                        <form>
+                            <input type="text" id="keyword" onclick="searchResults()" placeholder="Search..." >
+                            
+                        </form>
+                    </div>
+                </ul>
+            </nav>
+           
+            <a class="newbutton" href="#"><button>Login</button></a>
+            <a class="newbutton" href="#"><button>SignUp</button></a>
+
+            <a href="useraccount.html" > <img class="logo1" src="Images/user.png" width="40px" alt="logo"> </a>
+            </header>
+                
+                
+            
+             <br>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+<form method="post" action="data.php" >
+
+
+  <div class="formfirst">
+  
+
+         <h3 id="b">Title<br>
+         <input type= "checkbox" id ="r1" name ="Title" value ="Mr" >
+         <label for="r1">Mr</label>
+         <input type= "checkbox" id = "r2" name ="Title" value="Mrs" > 
+         <label for="r2">Mrs</label>
+         <input type= "checkbox" id="r3" name ="Title" value="Dr" >
+         <label for="r3">Dr</label>
+         <input type= "checkbox" id="r4" name="Title" value ="Rev" >
+         <label for ="r4">Rev</label><br><br>
+          </h2>
+  </div>
+
+  <div class="form-container">
+     
+        <label for="name">Name:</label><br>
+        <input type="text1" id="name" name="Name"placeholder ="First"required>
+        <input type="text1" id="name" name="Lname" placeholder ="Last"required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="name" name="email" placeholder = "abc@email.com"required><br><br>
+        
+        <label for="Date">Date of birth</label><br>
+        <input type = "date"id ="name"placeholder="12 May 2023"name="dob"required><br><br>
+        
+        <label for ="Address">Address</label><br>
+        <input type ="text1" id ="name" placeholder ="Street address 1" name="Address" required><br>
+        <input type ="text1" id ="name"placeholder ="Street address 2"name="a2" required><br>
+        <input type ="text1" id ="name"placeholder ="City"name="a3" required>
+        <input type ="text1" id ="name"placeholder ="State/Province" name="a4"required><br>
+        <input type ="text1" id ="name"placeholder ="Postal/Zip code" name="a5"required>
+        <select id="name" name="selectcountry"required>
+        <option disabled selected>Select country</option>
+                                <option>Sri lanka </option>
+                                <option>America</option>
+                                <option>India</option>
+                            </select><br><br>
+        
+        <label for="Mobile">Mobile</label><br>
+        <input type ="number"id ="name" placeholder ="Area code" name="mobile"required>
+        <label>-</label>
+        
+        <input type ="number" id ="name"placeholder ="Phone number" name="n"required>
+        
+      </div>
+<!---------->
+      <div class="company">
+          <label for="text1">Company organization name(optional)</label><br>
+          <input type="text1"id ="name" name="companyName" ><br><br>
+          
+          <label for="Job title">Job title</label><br>
+          <input type="text1" id ="name" name="Job"><br><br>
+          
+          <label for ="Address">Company organization address(optional)</label><br>
+          <input type ="text1"id ="name"  placeholder ="Street address 1" name="companyAddress"><br>
+          <input type ="text1" id ="name"placeholder ="Street address 2" name="c2"><br>
+          <input type ="text1" id ="name"placeholder ="City"name="c3" >
+          <input type ="text1" id ="name"placeholder ="State/Province"name="c4" ><br>
+          <input type ="text1" id ="name"placeholder ="Postal/Zip code"name="c5" >
+          <select  id="name"name="country">
+          <option disabled selected>Select country</option>
+                                  <option>Sri lanka</option>
+                                  <option>America</option>
+                                  <option>India</option>
+                              </select><br><br>
+          <label for="Mobile">Mobile</label><br>
+          <input type ="number"id ="name" placeholder ="Area code" name="mobile1"required>
+          
+          <label>-</label>
+          <input type ="number" id ="name"placeholder ="Phone number"name="b2" required>					
+          
+        </div>
+<!------->
+
+<hr>
+<div class="F">
+<h1 class ="vehicle">Preffered vehicle type</h1><br><br>
+<div class="box">
+<input type= "checkbox" id ="r6" name ="preffered" value="Car" > 
+      <label for="rr">Car</label><br>
+      <input type= "checkbox" id = "r7" name ="preffered" value="Van" >
+      <label for="r2">Van</label><br>
+      <input type= "checkbox" id="r8" name ="preffered" value="Lorry">
+      <label for="r3">Lorry</label><br>
+
+      
+  </div>
+<br>
+
+
+
+<input type="submit" name ="save"value="Save">
+
+</div>
+</form>
+
+
+
+<!--create the footer-->
+
+        <footer class="footer">
+            <div class="footer-container">
+              <div class="footer-logo">
+                <img src="Images/rentgonew.png" alt="Company Logo">
+              </div>
+              <nav class="footer-menu " >
+                <ul>
+                    <h3><u>Quick Links</u></h3>
+                  <li><a href="newHomePage.html">Home</a></li>
+                  <li><a href="select Vehicle type2.html">Instant Ride</a></li>
+                  <li><a href="Select Vehicle type__.html">Schedule</a></li>
+                  <li><a href="contact us.html">Contact Us</a></li>
+                  <li><a href="FAQpage.html">FAQ</a></li>
+                </ul>
+                <ul class="additional-links">
+                    <h3><u>About Us</u></h3>
+                  <li><a href="terms & condition.html">Terms and Conditions</a></li>
+                  <li><a href="privacy .html">Privacy Policy</a></li>
+                  <li><a href="about us.html">About Rent & Go</a></li>
+                </ul>
+              </nav>
+              <div class="footer-info">
+                <p>Address: 123 Main Street, City, Country</p>
+                <p>Phone: 077-456-7890</p>
+                <p>Email: info@rent&go.com</p>
+
+                <div class="social-media">
+                <center><b><h4>Follow Us On</h4></b> </center>
+                    <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="Images/facebook.png" width="30px" length="30px"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="Images/instagram.png" width="30px" length="30px"></a>
+                    <a href="https://twitter.com/" target="_blank"><img class="twitter" src="Images/twitter.png" width="30px" length="30px"></a>
+                    <a href="https://myaccount.google.com/profile" target="_blank"><img class="google-plus" src="Images/Google_Plus_logo_(2015-2019).svg.png" width="30px" length="30px"></a>
+
+                
+                </div>
+              </div>
+            </div>
+           
+            <div class="footer-bottom">
+              <p>Copyright 2023-2025 &copy; Rent & Go. All rights reserved.</p>
+            </div>
+          </footer>
+          
+          
+          
+          
+          
+        </body>
+    </head>
+</html>

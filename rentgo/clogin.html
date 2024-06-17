@@ -1,0 +1,147 @@
+
+
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <title>Rent & Go Login </title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="paymentStylenew.css">
+        <link rel="stylesheet" href="logstyle1.css">
+        
+       
+
+    </head>
+        <body>
+
+            <header class="header">
+              <a href="homePage.html" > <img class="logo" src="Images/rentgonew.png" width="160px" alt="logo"> </a> <br/><br/><br/>
+            
+            
+                <nav>
+                   <ul class="navigation">
+                    <li><a href="homePage.html">Home</a></li>
+                    <li><a href="Signin.html">Vehicle Rent</a></li>
+                    <li><a href="Signin.html">Instant Ride</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+                    <li><a href="FAQpage.html">FAQ</a></li>
+
+                  
+                    <div class="searchNav">
+                        <form>
+                            <input type="text" id="keyword" onclick="searchResults()" placeholder="Search..." >
+                            
+                        </form>
+                    </div>
+                </ul>
+            </nav>
+           
+            <a class="newbutton" href="clogin.html"><button>Login</button></a>
+            <a class="newbutton" href="Signin.html"><button>SignUp</button></a>
+            </header>
+                
+                
+            
+             <br>
+
+
+
+<!--log in -->
+
+<div class="container1">
+  <h2>Login</h2>
+  <form  action="login1.php" method="POST"  >
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    
+    <label for="remember">
+    <input type="checkbox" id="remember" name="remember" required> Remember Me
+    </label>
+    
+    <input type="submit" value="Login" onclick="return validateLogin()" >
+
+    <center> <a class="a1" href="updatePW.html"><u>Update Password</u></a> </center>
+    <a class="a2" href="delete.html"><u>Delete Account</u></a>
+  
+  </form>
+  </div>
+       
+    
+   
+
+    <script>
+    // Function to validate user credentials
+  function validateLogin() {
+    // Get input values
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+  
+    // Check if username and password are empty
+    if (username === "" || password === "") {
+      alert("Please enter both username and password");
+      return false;
+    }
+  
+    return ture;
+    
+  }
+
+  </script>
+
+
+<!--create the footer-->
+
+        <footer class="footer">
+            <div class="footer-container">
+              <div class="footer-logo">
+                <img src="Images/rentgonew.png" alt="Company Logo">
+              </div>
+              <nav class="footer-menu " >
+                <ul>
+                    <h3><u>Quick Links</u></h3>
+                  <li><a href="homePage.html">Home</a></li>
+                  <li><a href="Signin.html">Instant Ride</a></li>
+                  <li><a href="Signin.html">Shedule</a></li>
+                  <li><a href="contact us.html">Contact Us</a></li>
+                  <li><a href="contact us.html">FAQ</a></li>
+                </ul>
+                <ul class="additional-links">
+                    <h3><u>About Us</u></h3>
+                  <li><a href="terms & condition.html">Terms and Conditions</a></li>
+                  <li><a href="privacy .html">Privacy Policy</a></li>
+                  <li><a href="about us.html">About Rent & Go</a></li>
+                </ul>
+              </nav>
+              <div class="footer-info">
+                <p>Address: 123 Main Street, City, Country</p>
+                <p>Phone: 077-456-7890</p>
+                <p>Email: info@rent&go.com</p>
+
+                <div class="social-media">
+                <center><b><h4>Follow Us On</h4></b> </center>
+                    <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="Images/facebook.png" width="30px" length="30px"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="Images/instagram.png" width="30px" length="30px"></a>
+                    <a href="https://twitter.com/" target="_blank"><img class="twitter" src="Images/twitter.png" width="30px" length="30px"></a>
+                    <a href="https://myaccount.google.com/profile" target="_blank"><img class="google-plus" src="Images/Google_Plus_logo_(2015-2019).svg.png" width="30px" length="30px"></a>
+
+                
+                </div>
+              </div>
+            </div>
+           
+            <div class="footer-bottom">
+              <p>Copyright 2023-2025 &copy; Rent & Go. All rights reserved.</p>
+            </div>
+          </footer>
+          
+          
+          
+          
+          
+        </body>
+    </head>
+</html>

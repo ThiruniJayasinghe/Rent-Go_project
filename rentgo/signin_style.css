@@ -1,0 +1,78 @@
+
+/*Signup*/
+
+.signup{
+
+    width: 360px;
+    height: 1500px;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.626);
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+    margin-right: 150px;
+    border-style: solid ;
+    border-width: 2px;
+    
+    
+    
+    
+  
+  
+    
+  }
+  .signupbody{
+  
+    background-image: url(Images/banner-2.jpg);
+    background-repeat: no-repeat;
+    
+    background-size:2200px;
+    
+  }
+  
+  form{
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label{
+    display:flex;
+    margin-top: 20px;
+    font-size: 18px;
+    
+  
+  }
+  
+  form input,textarea{
+    width: 280px;
+    padding: 7px;
+    border: none;
+    border: 1pX solid gray;
+    border-radius: 6px;
+    outline: none;
+    
+    
+  
+  }
+  
+  .signupbtn{
+  
+    background-color: #0ca34b;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    margin: 20px 0px;
+   border: none;
+    cursor: pointer;
+    width: 320px;
+    height: 40px;
+    opacity: 0.7;
+    border-radius: 6px;
+  
+    
+  }
+  .signupbtn:hover{
+  
+    opacity: 10;
+  }
+  

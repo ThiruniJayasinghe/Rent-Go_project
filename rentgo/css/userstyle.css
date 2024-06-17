@@ -1,0 +1,171 @@
+body{
+
+    background-color: #f4f4f4;
+}
+.formfirst{
+    width: 400px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+    float: left;
+    margin-left: 50px;
+    background-color:rgb(255, 255, 255);
+    font-family: bahnschrift;
+
+}
+
+.form-container {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 30px;
+    background-color:rgb(255, 255, 255);
+    
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+ }
+
+ label {
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+ 
+ label {
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+ 
+ input[type="text1"] {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+ }
+ 
+ input[type="text1"]:focus {
+    border-color: #4CAF50;
+ }
+ label {
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+ 
+ input[type="number"] {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+ }
+ 
+ input[type="number"]:focus {
+    border-color: #4CAF50;
+ }
+ input[type="email"] {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+ }
+ 
+ input[type="email"]:focus {
+    border-color: #4CAF50;
+ }
+ input[type="date"] {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+ }
+ 
+ input[type="date"]:focus {
+    border-color: #4CAF50;
+ }
+ #name {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+
+ }
+#name:focus{
+    border-color: #4CAF50;
+}
+ .company {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:rgb(255, 255, 255);
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -645px;
+    
+  }
+ .f{
+
+   margin-left: 15px;
+   
+
+ }
+ .vehicle{
+
+    color: rgb(1, 90, 9);
+    margin-left: 75px;
+    margin-top: 100px;
+    font-family: bahnschrift;
+ }
+ .box{
+    margin-left: 75px;
+    margin-top: -35px;
+    font-family: bahnschrift;
+    font-size: 20px;
+ }
+ input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size:larger;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    
+ }
+ 
+ input[type="submit"]:hover {
+    background-color: #45a049;
+ }

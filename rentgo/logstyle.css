@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+  body{
+    background-color: #ccc;
+  }
+  .container1 {
+    width: 350px;
+    margin: 50px auto;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin-bottom: 5px;
+    height:400px ;
+    margin-left: 1000px;
+    border-bottom:100px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  .container1 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #333;
+  }
+
+  .container1 label {
+    display: block;
+    margin-bottom: 10px;
+    color: #2c2b2b;
+  }
+
+  .container1 input[type="text"]{
+    width: 100%;
+    padding: 13.5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    
+  }
+  .container1 input[type="password"] {
+    width: 100%;
+    padding: 13.5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .container1 input[type="checkbox"] {
+    margin-top: 10px;
+  }
+  
+  .container1 input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #0e6188;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 200px;
+  }
+  
+  .container1 input[type="submit"]:hover {
+    opacity:0.8;
+  }
+  
+  .managerbody{
+
+    background-image: url(Images/Manager.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+ 
+
+
+
+  

@@ -1,0 +1,79 @@
+body {
+
+    background-image: url('Images/rangerover.jpg');
+    background-size: cover;
+    opacity: 90%;
+    margin-bottom: 30px;
+}
+.FQuection{
+
+    
+    color: rgb(2, 241, 2);
+    font-size: large;
+   
+
+}
+.FQuection b{
+
+    color: rgb(249, 241, 0);
+    
+}
+.FQuection center{
+
+    color: rgb(255, 255, 255);
+    
+}
+.FQuection-item{
+
+    margin-left: 50px;
+    font-family: bahnschrift;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    background-image: url('Images/rangerover.jpg');
+    background-size: cover;
+    opacity: 75%;
+    
+}
+.massage{
+
+    color:rgb(249, 241, 0);
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size:14px;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 30px;
+    width: auto;
+   
+    
+ }
+ 
+ input[type="submit"]:hover {
+    background-color: #45a049;
+ }
+ input[type="text"] {
+    height: 20px;
+    margin-bottom: 12px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+ }
+ 
+ input[type="text"]:focus {
+    border-color: #4CAF50;
+ }

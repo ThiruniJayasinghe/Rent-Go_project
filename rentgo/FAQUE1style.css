@@ -1,0 +1,33 @@
+
+.border {
+
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: rgb(206, 202, 202);
+    font-family: bahnschrift;
+   
+}
+
+.body   {
+
+    color:black;
+    font-family: bahnschrift;
+    margin-left: 40px;
+    
+}
+.body  a {
+
+    margin-left: 60px;
+    color: rgb(222, 189, 4);
+    transition: all 0.6s ease 0.1s;
+    font-family: bahnschrift;
+}
+.body  u :hover {
+
+    color:rgb(169, 144, 2);
+}

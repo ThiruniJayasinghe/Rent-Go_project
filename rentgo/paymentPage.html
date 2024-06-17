@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <title>Payment details</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="paymentStylenew.css">
+       
+
+    </head>
+    
+        <body>
+          
+    <script src="script.js"></script>
+            <header class="header">
+                <a href="newHomePage.html" > <img class="logo" src="Images/rentgonew.png" width="160px" alt="logo"></a> <br/><br/><br/>
+            
+            
+                <nav>
+                   <ul class="navigation">
+                    <li><a href="newHomePage.html">Home</a></li>
+                    <li><a href="Select Vehicle type__.html">Schedule Ride</a></li>
+                    <li><a href="instant ride.html">Instant Ride</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+                    <li><a href="FAQpage.html">FAQ</a></li>
+
+                  
+                    <div class="searchNav">
+                        <form>
+                            <input type="text" id="keyword" onclick="searchResults()" placeholder="Search..." >
+                            
+                        </form>
+                    </div>
+                </ul>
+            </nav>
+           
+            <a class="newbutton" href="#"><button>Logout</button></a>
+            
+
+            <a href="useraccount.html" > <img class="logo1" src="Images/user.png" width="40px" alt="logo"> </a>
+            </header>
+                
+                
+            
+             <br>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="container"><br/><br/>
+ <center> <h1> Payment Details</h1></center><br/><br/>
+  <form id="payment-form" method="POST" action="process-payment.php">
+    <form>
+      <label for="cardholder">Cardholder Name</label>
+       <input type="text" id="cardholder" placeholder="Enter cardholder name" pattern="^[a-zA-Z\s]+$" name="holderName" required><br/>
+  
+      <label for="cardnumber">Card Number</label>
+      <input type="text" id="cardnumber" placeholder="Enter card number" pattern="[0-9]{16}" name="crdNumber" required><br/>
+  
+      <div class="flex-container">
+          <div class="flex-item">
+              <label for="expiry">Expiry Date</label>
+              <input type="text" id="expiry" placeholder="MM/YY" name="expyDate" required><br/>
+          </div>
+          <div class="flex-item">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" placeholder="CVV" pattern="[0-9]{3}" name="cvvNUM" required><br/>
+          </div>
+ 
+      </div>
+      <div class="flex-item1"><br/>
+        <label for="amount">Amount</label>
+        <input type="text" id="amount" placeholder="Amount"  name="amount" required>
+    </div>
+      <br/><br/><br/>
+     
+      <input type="submit" value="Pay" name="setPAY" onclick="confirmPayment(event)"><br/>
+      <input type="submit" value="Reset" onclick="resetForm()" >
+    
+  </form>
+  
+  </form>
+
+
+</div>
+<script>
+  function resetForm() {
+    document.getElementById('payment-form').reset();
+  }
+</script>
+
+
+
+
+<!--create the footer-->
+
+        <footer class="footer">
+            <div class="footer-container">
+              <div class="footer-logo">
+                <img src="Images/rentgonew.png" alt="Company Logo">
+              
+              </div>
+              <nav class="footer-menu " >
+                <ul>
+                    <h3><u>Quick Links</u></h3>
+                  <li><a href="newHomePage.html">Home</a></li>
+                  <li><a href="instant ride.html">Instant Ride</a></li>
+                  <li><a href="Select Vehicle type__.html">Schedule Ride</a></li>
+                  <li><a href="contact us.html">Contact Us</a></li>
+                  <li><a href="FAQpage.html">FAQ</a></li>
+                </ul>
+                <ul class="additional-links">
+                    <h3><u>About Us</u></h3>
+                  <li><a href="terms & condition.html">Terms and Conditions</a></li>
+                  <li><a href="privacy .html">Privacy Policy</a></li>
+                  <li><a href="about us.html">About Rent & Go</a></li>
+                </ul>
+              </nav>
+              <div class="footer-info">
+                <p>Address: 123 Main Street, City, Country</p>
+                <p>Phone: 077-456-7890</p>
+                <p>Email: info@rent&go.com</p>
+
+                <div class="social-media">
+                <center><b><h4>Follow Us On</h4></b> </center>
+                    <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="Images/facebook.png" width="30px" length="30px"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="Images/instagram.png" width="30px" length="30px"></a>
+                    <a href="https://twitter.com/" target="_blank"><img class="twitter" src="Images/twitter.png" width="30px" length="30px"></a>
+                    <a href="https://myaccount.google.com/profile" target="_blank"><img class="google-plus" src="Images/Google_Plus_logo_(2015-2019).svg.png" width="30px" length="30px"></a>
+                
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>Copyright 2023-2025 &copy; Rent & Go. All rights reserved.</p>
+            </div>
+          </footer>
+          
+          
+          
+          
+          
+        </body>
+    </head>
+</html>

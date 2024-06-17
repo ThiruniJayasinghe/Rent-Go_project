@@ -1,0 +1,112 @@
+.driverenter {
+    margin-top: 5px;
+    margin-left:900px;
+    margin-bottom: 50px;
+    width:500px;
+    border: solid;
+    border-color: #0a0a0a;
+    border-width: 5px;
+    
+    
+    padding-left: 80px;
+   background-color:rgba(134, 137, 137, 0.333);
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-blend-mode: color-burn;
+    
+  }
+  
+  label {
+    display: inline;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+  input[type="text"],
+  input[type="tel"] {
+    width: 400px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgba(64, 65, 64, 0.919);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 410px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .dtableheader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    margin-left: 3px;
+    font-weight: bold;
+
+  }
+  .driverbody{
+
+    background-image: url(Images/Tips-for-Road-Trip-Cover-30-08-1.jpg);
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+    
+  
+  }
+  .ddbtn{
+    background-color: #ff0000;
+    color: white;
+    padding: 4px 50px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 140px;
+    
+  }
+  
+  .dupbtn{
+    background-color: #008000;
+    color: white;
+    padding: 4px 50px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 140px;
+
+  }
+
+  .dshowtbl{
+
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color:rgb(244, 245, 244);
+    width: 100px;;
+    
+    
+    
+     
+    
+  }
+  .dshowtbl th,.dshowtbl td{
+
+    border: 1px solid black; 
+    padding: 18px;    
+
+
+  }
+  
+
+ 
+  
+  

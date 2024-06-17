@@ -1,0 +1,110 @@
+.FAQ {
+    margin-left: 50px;
+    color: red;
+    list-style: none;
+    font-family: bahnschrift;
+   
+}
+.FAQ li a{
+
+    font-family: bahnschrift;
+    color: rgb(4, 122, 41);
+    transition: all 0.3s ease 0s;
+    
+    
+}
+.FAQ li  :hover{
+
+    color: rgb(8, 76, 8);
+    
+}
+
+
+.FAQ h3 {
+    font-family: bahnschrift;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+details {
+    margin-bottom: 10px;
+    margin-left: 750px;
+    padding: 5px;
+    border: 2px solid #e3e2e2;
+    border-radius: 15px;
+    width: 600px;
+    background-color: rgb(238, 238, 238);
+  }
+  
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 35px;
+    margin-left: 25px;
+    margin-left: 80px;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary::before {
+    content: '+';
+    float: center;
+    margin-right: 15px;
+  }
+  
+  details[open] summary::before {
+    content: '-';
+  }
+  
+  details p {
+    margin-top: 0;
+    color: green;
+    margin-left: 15px;
+    font-family: bahnschrift;
+  }
+  
+  input[type="text1"] {
+   
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid #dd5f5f;
+    border-radius: 4px;
+    height: 30px;
+    width: 400px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 25px;
+   
+  }
+  input[type="text1"]:focus {
+    border-color: #4CAF50;
+ }
+
+  h3{
+    font-family: bahnschrift;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size:larger;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 250px;
+    margin-left: 250px;
+   
+    
+ }
+ 
+ input[type="submit"]:hover {
+    background-color: #45a049;
+ }

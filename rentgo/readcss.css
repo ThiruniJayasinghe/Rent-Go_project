@@ -1,0 +1,69 @@
+
+
+.pop
+{
+  color: rgb(218, 218, 218);
+  background-color: black;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+
+th
+{
+padding: 50px;
+background-color: rgba(255, 255, 255, 0.425);
+width: 200px;
+font-size: 32px;
+}
+
+.display
+{
+  margin-left: 200px;
+  margin-right: 220px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  
+  
+}
+
+body
+{
+  background-image: url('Images/tyler-clemmensen-d1Jum1vVLew-unsplash.jpg');
+  background-size: cover;
+}
+
+tr
+{
+  background-color:  rgba(255, 255, 255, 0.411);
+  font-size: 28px;
+}
+
+.pay
+{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  width: 200px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 750px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.pop:hover
+{
+  transform: scale(1.1);
+}
+
+.pay:hover
+{
+  transform: scale(1.2);
+}

@@ -1,0 +1,17 @@
+h1{
+	background-color:rgb(234, 188, 6);
+	font-size:40px;
+	font-family: sans-serif;
+	padding: 20px;
+}
+
+#p,ul{
+	margin-left:30px;
+	font-size:20px;
+	font-family:bahnschrift;
+}
+#l{
+	font-size:30px;
+	font-family: sans-serif;
+	padding: 20px;
+}
